@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloControllerImpl implements HelloController {
     @GetMapping("/sayhello")
     public HelloResponse sayHello(){
-        log.info("sayHello(-) started");
+        log.info("sayHello(-) started *********");
         return new HelloResponse("welcome to hello world");
     }
 
