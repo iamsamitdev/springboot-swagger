@@ -15,7 +15,7 @@ public class HelloControllerImpl implements HelloController {
     @GetMapping("/sayhello")
     public HelloResponse sayHello(){
         log.info("sayHello(-) started new update");
-        return new HelloResponse("welcome to hello world test webhook");
+        return new HelloResponse("welcome to hello world webook update");
     }
 
 }
